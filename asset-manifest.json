@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Job-add/static/css/main.e650b90d.chunk.css",
+    "main.js": "/Job-add/static/js/main.bec48224.chunk.js",
+    "main.js.map": "/Job-add/static/js/main.bec48224.chunk.js.map",
+    "runtime-main.js": "/Job-add/static/js/runtime-main.0d37dad7.js",
+    "runtime-main.js.map": "/Job-add/static/js/runtime-main.0d37dad7.js.map",
+    "static/js/2.48ea7f28.chunk.js": "/Job-add/static/js/2.48ea7f28.chunk.js",
+    "static/js/2.48ea7f28.chunk.js.map": "/Job-add/static/js/2.48ea7f28.chunk.js.map",
+    "index.html": "/Job-add/index.html",
+    "static/css/main.e650b90d.chunk.css.map": "/Job-add/static/css/main.e650b90d.chunk.css.map",
+    "static/js/2.48ea7f28.chunk.js.LICENSE.txt": "/Job-add/static/js/2.48ea7f28.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/Job-add/static/media/working-day.tablet.eaeb8183.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d37dad7.js",
+    "static/js/2.48ea7f28.chunk.js",
+    "static/css/main.e650b90d.chunk.css",
+    "static/js/main.bec48224.chunk.js"
+  ]
+}
