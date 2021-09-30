@@ -1,3 +1,11 @@
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .about-you {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -38,9 +46,25 @@
     background-repeat: no-repeat;
     background-position: 0px 18px;
   }
+}
 
-  &__additional {
-    display: none;
+.button {
+  margin-left: 26px;
+  padding: 12px 100px;
+  background-color: #ff723d;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+
+  &:hover,
+  &:focus {
+    color: black;
+    padding: 10px 98px;
+    background-color: transparent;
+    border: 2px solid #ff723d;
   }
 }
 
@@ -66,7 +90,6 @@
     &__additional {
       margin-top: 20px;
       margin-left: 40px;
-      display: block;
     }
   }
 }

@@ -9,6 +9,7 @@
   &__container {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   &__header {
@@ -22,6 +23,25 @@
   &__title {
     padding-top: 15px;
     font-size: 35px;
+  }
+
+  &__subtitle {
+    cursor: pointer;
+  }
+  &__subtitle:after {
+    background-color: #ff723d;
+    display: block;
+    content: "";
+    height: 3px;
+    border-radius: 10px;
+    width: 0%;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz--transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+  }
+  &__subtitle:hover:after,
+  &__subtitle:focus:after {
+    width: 70%;
   }
 
   &__img {

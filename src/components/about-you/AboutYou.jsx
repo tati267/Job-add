@@ -1,7 +1,24 @@
-import Button from "../button/Button";
+import { useState } from "react";
 import "./style.scss";
 
+const Additional = () => {
+  return (
+    <ul className="about-you__additional">
+      <li className="about-you__item">
+        12 months working for a start-up or similar fast paced growing company
+      </li>
+      <li className="about-you__item">Experience with Typescript</li>
+      <li className="about-you__item">Experience with NodeJs</li>
+      <li className="about-you__item">
+        Experience with writing MS-SQL queries
+      </li>
+      <li className="about-you__item">HTML email (MJML)</li>
+    </ul>
+  );
+};
+
 const AboutYou = () => {
+  const [IsMore, setIsMore] = useState(false);
   return (
     <section className="about-you wrapper">
       <h3 className="about-you__subtitle">WHAT WE EXPECT</h3>
@@ -31,7 +48,7 @@ const AboutYou = () => {
           </li>
         </ul>
 
-        <ul className="about-you__additional">
+        <ul className={`about-you__additional ${IsMore ? `block` : `hidden`}`}>
           <li className="about-you__item">
             12 months working for a start-up or similar fast paced growing
             company
@@ -44,7 +61,9 @@ const AboutYou = () => {
           <li className="about-you__item">HTML email (MJML)</li>
         </ul>
       </div>
-      <Button />
+      <button className="button" onClick={() => setIsMore(!IsMore)}>
+        {IsMore ? "show less" : "  show more"}
+      </button>
     </section>
   );
 };
