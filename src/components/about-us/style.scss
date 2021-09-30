@@ -1,0 +1,19 @@
+.about-us {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: white;
+
+  &__subtitle {
+    color: #3888f9;
+    font-size: 17px;
+  }
+
+  &__title {
+    padding-top: 7px;
+    font-size: 28px;
+  }
+
+  &__text {
+    padding-top: 25px;
+  }
+}

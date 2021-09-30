@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -16,6 +17,13 @@ li {
   margin: 0 auto;
   background-color: #222;
   color: black;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @media screen and (min-width: 768px) {
