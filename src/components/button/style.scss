@@ -1,10 +1,24 @@
 .button {
-  margin-top: 25px;
-  padding: 9px 70px;
+  margin-left: 26px;
+  padding: 12px 100px;
   background-color: #ff723d;
   color: white;
+  font-weight: 700;
   text-transform: uppercase;
   outline: none;
   border: none;
   border-radius: 10px;
+
+  &:hover,
+  &:focus {
+    color: black;
+    padding: 10px 98px;
+    background-color: transparent;
+    border: 2px solid #ff723d;
+  }
+
+  &:active {
+    padding: 11px 98px;
+    border: 1px solid #ff723d;
+  }
 }

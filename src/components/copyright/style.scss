@@ -1,0 +1,31 @@
+.copyright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #3a47d4;
+  color: white;
+
+  &__author {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    background-image: url(../../images/copyright.mobile.png);
+    background-repeat: no-repeat;
+    background-position: 140px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .copyright__author {
+    padding-left: 230px;
+    background-position: 330px 0px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .copyright__author {
+    padding-left: 350px;
+    background-position: 520px 0px;
+  }
+}

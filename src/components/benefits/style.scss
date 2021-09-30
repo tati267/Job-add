@@ -1,0 +1,44 @@
+.benefits {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, #3a47d4 0%, #3888f9 100%);
+  color: white;
+
+  &__title {
+    padding-top: 7px;
+    font-size: 28px;
+  }
+
+  &__item {
+    padding-top: 20px;
+  }
+
+  &__list {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: none;
+    background-image: url(../../images/benefits.tablet.png);
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 428px;
+
+    &__title {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .benefits {
+    background-image: url(../../images/benefits.desktop.png);
+    width: 1250px;
+    height: 390px;
+  }
+}

@@ -2,7 +2,7 @@ import "./style.scss";
 
 const AboutUs = () => {
   return (
-    <section className="about-us wrapper">
+    <section className="about-us">
       <h3 className="about-us__subtitle">WHO WE ARE</h3>
       <h2 className="about-us__title">Financial solutions for your business</h2>
       <p className="about-us__text">

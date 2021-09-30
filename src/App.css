@@ -12,13 +12,17 @@ li {
   list-style: none;
 }
 
+li:last-child {
+  padding-bottom: 5px;
+}
+
 .container {
   width: 360px;
   margin: 0 auto;
-  background-color: #222;
   color: black;
   font-family: "Merriweather", serif;
   font-weight: 300;
+  background-color: transparent;
 }
 
 .wrapper {
@@ -30,10 +34,19 @@ li {
   .container {
     width: 768px;
   }
+
+  .wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (min-width: 1250px) {
   .container {
     width: 1250px;
+  }
+  .wrapper {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }

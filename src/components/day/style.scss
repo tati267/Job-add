@@ -1,0 +1,57 @@
+.working-day {
+  padding: 30px;
+  background-color: white;
+
+  &__subtitle {
+    color: #3888f9;
+    font-size: 17px;
+  }
+
+  &__title {
+    padding-top: 7px;
+    font-size: 28px;
+  }
+
+  &__item {
+    padding-top: 20px;
+  }
+
+  &__list {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-image: url(../../images/stars.mobile.png);
+    background-repeat: no-repeat;
+    background-position: 230px 230px;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .working-day {
+    padding: 60px 50px;
+    width: 768px;
+    background-image: url(../../images/working-day.tablet.png);
+    background-repeat: no-repeat;
+    background-position: 330px 50px;
+
+    &__list {
+      width: 350px;
+      background-position: 280px 180px;
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .working-day {
+    padding: 60px 150px 100px;
+    width: 1250px;
+    background-image: url(../../images/working-day.desktop.png);
+    background-repeat: no-repeat;
+    background-position: 500px -50px;
+
+    &__list {
+      width: 350px;
+      background-position: 280px 180px;
+    }
+  }
+}
